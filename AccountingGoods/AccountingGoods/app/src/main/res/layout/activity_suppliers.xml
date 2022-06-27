@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EBE6E6"
+    tools:context=".activity.SuppliersActivity">
+
+
+    <ListView
+        android:id="@+id/listSup"
+        android:layout_width="match_parent"
+        android:layout_height="550dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/addSupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listSup"
+        android:layout_marginTop="133dp"
+        android:background="#939090"
+        android:onClick="addSupClick"
+        android:text="Добавить поставщика"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/listSup"></Button>
+
+</RelativeLayout>

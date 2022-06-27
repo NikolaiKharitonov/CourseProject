@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Розничная торговля</string>
+    <string-array name="choise_operations">
+        <item>Заказ товара</item>
+        <item>Возврат товара</item>
+    </string-array>
+</resources>

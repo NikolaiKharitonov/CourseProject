@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ReportActivity"
+    android:background="#EBE6E6"
+    android:columnCount="2"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:text="Информация:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:layout_marginStart="50dp"
+        android:text="Сумма"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        ></TextView>
+    <TextView
+        android:text="Остаток товаров (закуп. цен.)"
+        android:textColor="@color/black"
+        ></TextView>
+    <TextView
+        android:layout_marginStart="50dp"
+        android:text="PlaceHoder"
+        android:textColor="@color/black"
+        android:id="@+id/sumBuyReportTextView"
+        ></TextView>
+    <TextView
+        android:text="Остаток товаров (прод.цен.)"
+        android:textColor="@color/black"
+        ></TextView>
+    <TextView
+        android:layout_marginStart="50dp"
+        android:text="PlaceHoder"
+        android:textColor="@color/black"
+        android:id="@+id/sumSellReportET"
+        ></TextView>
+    <TextView
+        android:text="Предположительный доход:"
+        android:textColor="@color/black"
+        ></TextView>
+    <TextView
+        android:layout_marginStart="50dp"
+        android:text="PlaceHoder"
+        android:textColor="@color/black"
+        android:id="@+id/incomeReportTV"
+        ></TextView>
+
+
+</GridLayout>
